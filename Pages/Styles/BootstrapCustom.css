@@ -1,0 +1,12 @@
+
+#SFlogoAccueil{
+    width: 215px;
+    height:79px;
+}
+
+.socials{
+  display: flex;
+  justify-content: flex-end;
+  height: 10%;
+}
+
