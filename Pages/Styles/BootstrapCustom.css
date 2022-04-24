@@ -5,8 +5,8 @@
 }
 
 .logo_Streamer{
-  width: 20%;
-  height: 149;
+  width: 200px;
+  height: 200px;
 }
 
 .socials{
@@ -31,6 +31,7 @@
   height: 300px;
 }
 
-.head{
+.sticky{
+  position: fixed;
   opacity: 75%;
 }
