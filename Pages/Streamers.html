@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Stream Faction - Accueil</title>
+    <title>Stream Faction - Chaîne : Stream Faction</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -14,8 +14,8 @@
   </head>
   <body>
     <!--Div contenant la navbar-->
-    <div class="main_menu">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom box-shadow mb-3">
+    <div class="head">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark border-bottom box-shadow mb-3">
         <div class="container-fluid">
           <div class="header_logo">
             <a class="sticky_none" id="logoAccueil" href="Pages\Accueil.html" class="navbar-brand"><img src="Pages\Ressources_Images\LogoInline.png" id="SFlogoAccueil"/></a>
@@ -72,51 +72,101 @@
       </nav>
     </div>
 
-    <div class="container bg-primary">
-      <main role="main" class="pb-3">
-        <div class="text-center">
-          <h1 class="display-4">Bienvenue!</h1>
-          <!-- Add a placeholder for the Twitch embed -->
-          <div id="twitch-embed"></div>
-          <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-          <script type="text/javascript">
-              TwitchEmbed("100%", 480, "ctetard");
-          </script>
+    <div class="container">
+        <div class="list">
+            <div class="item">
+                <a href="#">
+                    <img class="logo_Streamer" src="\Pages\Ressources_Images\Logos_Streamers\Stream_Faction_Logo.png"></img>
+                </a>
+                <div class="wrapper">
+                    <div class="content">
+                        <div class="categories">
+                            <a href="#" class="label label-black">
+                                <i></i>
+                                Stream Faction
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img class="logo_Streamer" src="\Pages\Ressources_Images\Logos_Streamers\vanavatar_pseudo.png"></img>
+                </a>
+                <div class="wrapper">
+                    <div class="content">
+                        <div class="categories">
+                            <a href="#" class="label label-black">
+                                <i></i>
+                                Streamer 1
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img class="logo_Streamer" src="\Pages\Ressources_Images\Logos_Streamers\dragonicon.png"></img>
+                </a>
+                <div class="wrapper">
+                    <div class="content">
+                        <div class="categories">
+                            <a href="#" class="label label-black">
+                                <i></i>
+                                Streamer 2
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img class="logo_Streamer" src="\Pages\Ressources_Images\Logos_Streamers\flucherqs.png"></img>
+                </a>
+                <div class="wrapper">
+                    <div class="content">
+                        <div class="categories">
+                            <a href="#" class="label label-black">
+                                <i></i>
+                                Streamer 3
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </main>
-  </div>
-
-  <div class="footer">
-    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark box-shadow">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-            <li class="nav-item">
-              <label class="nav-link active">&copy; 2020 - StreamFaction </a>
-            </li>
-            <li>
-              <a class="nav-link" href="Privacy">Mentions légales</a>
-            </li>
-            <li>
-              <a class="nav-link" href="Privacy">Politique de confidentialité</a>
-            </li>
-            <li>
-              <a class="nav-link" href="Privacy">Politique de Cookies</a>
-            </li>
-            <li class="nav-item-group">
-          </ul>
-        </div>
-        <div class="socials">
-          <img src="Pages\Ressources_Images\Twitch_icon.png"><a href="https://www.twitch.tv/Stream_faction"></a></img>
-          <img src="Pages\Ressources_Images\FB_icon.png"><a href="https://www.facebook.com/StreamFaction"></a></img>
-          <img src="Pages\Ressources_Images\Discord_icon.png"><a href="https://discord.com/invite/GSUBMfS"></a></img>
-          <img src="Pages\Ressources_Images\Twitter_icon.png"><a href="https://twitter.com/StreamFaction"></a></img>
-          <img src="Pages\Ressources_Images\YT_icon.png"><a href="#"></a></img>
-          <img src="Pages\Ressources_Images\Insta_icon.png"><a href="#"></a></img>
-        </div>
-      </div>
-    </nav>
-  </div>
-
+    </div>
+    
+      <div class="footer">
+        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark box-shadow">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <label class="nav-link active">&copy; 2020 - StreamFaction </a>
+                    </li>
+                    <li>
+                    <a class="nav-link" href="Privacy">Mentions légales</a>
+                    </li>
+                    <li>
+                    <a class="nav-link" href="Privacy">Politique de confidentialité</a>
+                    </li>
+                    <li>
+                    <a class="nav-link" href="Privacy">Politique de Cookies</a>
+                    </li>
+                    <li class="nav-item-group">
+                </ul>
+                </div>
+                <div class="socials">
+                    <img src="Pages\Ressources_Images\Twitch_icon.png"><a href="https://www.twitch.tv/Stream_faction"></a></img>
+                    <img src="Pages\Ressources_Images\FB_icon.png"><a href="https://www.facebook.com/StreamFaction"></a></img>
+                    <img src="Pages\Ressources_Images\Discord_icon.png"><a href="https://discord.com/invite/GSUBMfS"></a></img>
+                    <img src="Pages\Ressources_Images\Twitter_icon.png"><a href="https://twitter.com/StreamFaction"></a></img>
+                    <img src="Pages\Ressources_Images\YT_icon.png"><a href="#"></a></img>
+                    <img src="Pages\Ressources_Images\Insta_icon.png"><a href="#"></a></img>
+                </div>
+            </div>
+        </nav>
+    </div>
   </body>
 </html>

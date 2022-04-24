@@ -4,14 +4,33 @@
     height:79px;
 }
 
+.logo_Streamer{
+  width: 20%;
+  height: 149;
+}
+
 .socials{
-  display: flex;
-  justify-content: flex-end;
-  
+  position: relative;
+  height: 40px;
 }
 
 .socials img{
-  height: 5%;
-  width: 4%;
+  opacity: 0.8;
+  height: 40px;
+  width: 50px;
+  padding-right: 10px;
+  transition-duration: 0.5s;
 }
 
+.socials img:hover{
+  opacity: 1;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+#footer{
+  height: 300px;
+}
+
+.head{
+  opacity: 75%;
+}
