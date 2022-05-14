@@ -3,16 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavBarCompComponent } from './component/nav-bar-comp/nav-bar-comp.component';
-import { FooterCompComponent } from './component/footer-comp/footer-comp.component';
+import { NavBarComponent } from './component/nav-bar/nav-bar.component';
+import { FooterComponent } from './component/footer/footer.component';
 import { StreamersComponent } from './component/pages/streamers/streamers.component';
 import { AccueilComponent } from './component/pages/accueil/accueil.component';
+import { StreamerService } from './services/streamer.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarCompComponent,
-    FooterCompComponent,
+    NavBarComponent,
+    FooterComponent,
     StreamersComponent,
     AccueilComponent
   ],
@@ -20,7 +21,9 @@ import { AccueilComponent } from './component/pages/accueil/accueil.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    StreamerService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
