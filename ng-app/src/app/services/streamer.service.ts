@@ -18,7 +18,7 @@ export class StreamerService {
       new Streamer(
         'Van Drake',
         'Logos_Streamers/vanavatar_pseudo.png',
-        'Salut! moi c\'est Ivan alias Van Drake. Je stream sur plusieurs styles de jeux et j\'ai une préférence pour les jeux multi.',
+        'Salut! Je me nomme Ivan alias Van Drake. Je stream sur plusieurs styles de jeux et j\'ai une préférence pour les jeux multi.',
         new Date(),
         new Date()),
       new Streamer(
