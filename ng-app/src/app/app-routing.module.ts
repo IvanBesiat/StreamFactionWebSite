@@ -5,9 +5,11 @@ import { StreamersComponent } from './component/pages/streamers/streamers.compon
 
 const routes: Routes = [
 
+  { path: '', component: AccueilComponent },
   { path: 'acceuil', component: AccueilComponent },
-  { path: 'acceuil/streamers', component: StreamersComponent }
-
+  { path: '/streamers', component: StreamersComponent },
+  //{path: 'not-found', component: NotFoundComponent},
+  {path: '**', redirectTo: 'not-found'},
 ];
 
 @NgModule({
