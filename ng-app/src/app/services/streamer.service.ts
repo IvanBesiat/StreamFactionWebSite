@@ -12,7 +12,7 @@ export class StreamerService {
       new Streamer(
         'Stream Faction',
         'Logos_Streamers/Stream_Faction_Logo.png',
-        'Bienvenue sur la chaîne de l\'association!',
+        'Bienvenue sur la chaîne de l\'association! Ici les dragons sont à l\'honneur.',
         new Date(),
         new Date()),
       new Streamer(
