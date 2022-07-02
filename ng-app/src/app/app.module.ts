@@ -8,6 +8,9 @@ import { FooterComponent } from './component/footer/footer.component';
 import { StreamersComponent } from './component/pages/streamers/streamers.component';
 import { AccueilComponent } from './component/pages/accueil/accueil.component';
 import { StreamerService } from './services/streamer.service';
+import { AccueilViewComponent } from './views/accueil-view/accueil-view.component';
+import { StreamersViewComponent } from './views/streamers-view/streamers-view.component';
+import { NotFoundViewComponent } from './views/not-found-view/not-found-view.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { StreamerService } from './services/streamer.service';
     NavBarComponent,
     FooterComponent,
     StreamersComponent,
-    AccueilComponent
+    AccueilComponent,
+    AccueilViewComponent,
+    StreamersViewComponent,
+    NotFoundViewComponent
   ],
   imports: [
     BrowserModule,

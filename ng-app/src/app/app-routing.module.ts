@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AccueilComponent } from './component/pages/accueil/accueil.component';
-import { StreamersComponent } from './component/pages/streamers/streamers.component';
+import { AccueilViewComponent } from './views/accueil-view/accueil-view.component';
+import { StreamersViewComponent } from './views/streamers-view/streamers-view.component';
+import { NotFoundViewComponent } from './views/not-found-view/not-found-view.component';
 
 const routes: Routes = [
 
-  { path: '', component: AccueilComponent },
-  { path: 'acceuil', component: AccueilComponent },
-  { path: '/streamers', component: StreamersComponent },
-  //{path: 'not-found', component: NotFoundComponent},
+  { path: '', component: AccueilViewComponent },
+  { path: 'acceuil', component: AccueilViewComponent },
+  { path: '/streamers', component: StreamersViewComponent },
+  {path: 'not-found', component: NotFoundViewComponent},
   {path: '**', redirectTo: 'not-found'},
 ];
 
