@@ -1,0 +1,22 @@
+<div class="container bg-dark pb-2 card">
+  <h1 class="display-4 text-white text-center">Liste des actualités</h1>
+  <div class="card-deck">
+    <div class="card mb-3" *ngFor="let actualite of actualites">
+      <div class="row no-gutters">
+        <a href="#" class="col-md-2">
+          <img class="card-img logo_Streamer" src="../assets/Ressources_Images/{{actualite.image}}">
+        </a>
+        <div class="col-md-8">
+          <div class="card-body">
+            <a href="#" class="label label-black"></a>
+            <h5 class="card-title">{{actualite.title}}</h5>
+            <p class="card-text">{{actualite.shortDescription}}</p>
+            <p class="card-text">
+              <small class="text-muted">Dernière modification le {{actualite.date_modif}}</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

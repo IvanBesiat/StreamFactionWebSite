@@ -11,6 +11,12 @@ import { StreamerService } from './services/streamer.service';
 import { AccueilViewComponent } from './views/accueil-view/accueil-view.component';
 import { StreamersViewComponent } from './views/streamers-view/streamers-view.component';
 import { NotFoundViewComponent } from './views/not-found-view/not-found-view.component';
+import { ActualitesViewComponent } from './views/actualites-view/actualites-view.component';
+import { ActualitesComponent } from './component/pages/actualites/actualites.component';
+import { CalendrierViewComponent } from './views/calendrier-view/calendrier-view.component';
+import { ActualiteService } from './services/actualite.service';
+import { CalendrierComponent } from './component/calendrier/calendrier.component';
+import { InfosAssoComponent } from './component/infos-asso/infos-asso.component';
 
 @NgModule({
   declarations: [
@@ -19,16 +25,22 @@ import { NotFoundViewComponent } from './views/not-found-view/not-found-view.com
     FooterComponent,
     StreamersComponent,
     AccueilComponent,
+    ActualitesComponent,
+    CalendrierComponent,
     AccueilViewComponent,
     StreamersViewComponent,
-    NotFoundViewComponent
+    NotFoundViewComponent,
+    ActualitesViewComponent,
+    CalendrierViewComponent,
+    InfosAssoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [
-    StreamerService
+    StreamerService,
+    ActualiteService
   ],
   bootstrap: [AppComponent]
 })
