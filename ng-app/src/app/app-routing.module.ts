@@ -8,7 +8,7 @@ const routes: Routes = [
 
   { path: '', component: AccueilViewComponent },
   { path: 'acceuil', component: AccueilViewComponent },
-  { path: '/streamers', component: StreamersViewComponent },
+  { path: 'streamers', component: StreamersViewComponent },
   {path: 'not-found', component: NotFoundViewComponent},
   {path: '**', redirectTo: 'not-found'},
 ];

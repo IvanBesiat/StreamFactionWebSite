@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Streamer } from '../../models/streamer';
+import { StreamerService } from '../../services/streamer.service';
 
 @Component({
   selector: 'app-streamers-view',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StreamersViewComponent implements OnInit {
 
-  constructor() { }
+  streamers: Streamer[];
+
+  constructor(private streamerService: StreamerService) {
+    this.streamers = [];
+  }
 
   ngOnInit(): void {
+    this.streamers = this.streamerService.streamers;
   }
 
 }

@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom mb-3">
     <div class="container-fluid">
       <div class="header_logo">
-        <a class="sticky_none" id="logoAccueil" href="Pages\Accueil.html" class="navbar-brand"><img
+        <a class="sticky_none" id="logoAccueil" routerLink="" class="navbar-brand"><img
             src="../assets/Ressources_Images/LogoInline.png" id="SFlogoAccueil" /></a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
@@ -12,13 +12,12 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Pages\Accueil.html">ACCUEIL</a>
+            <a class="nav-link active" aria-current="page" routerLink="">ACCUEIL</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="Pages\Streamers.html" id="navbarDropdownStreamers" role="button"
+            <a class="nav-link dropdown-toggle" routerLink="/streamers" id="navbarDropdownStreamers" role="button"
               data-bs-toggle="dropdown" aria-expanded="true">STREAMERS</a>
             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownStreamers">
-              <!--   <li><a class="dropdown-item" href="Pages\Streamers.html">Tous les Streamers</a></li> -->
               <li><a class="dropdown-item" routerLink="/streamers">Tous les Streamers</a></li>
               <li><a class="dropdown-item" href="Pages\StreamerSF.html">Stream Faction</a></li>
               <li><a class="dropdown-item" href="Pages\Streamer1.html">Streamer 1</a></li>
