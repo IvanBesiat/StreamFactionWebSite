@@ -1,32 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projet MESI\\StreamFactionWebSite\\StreamFaction\\StreamFaction.csproj": {}
+    "D:\\Developpement\\Projet_MESI\\StreamFactionWebSite\\StreamFaction\\StreamFaction.csproj": {}
   },
   "projects": {
-    "F:\\Projet MESI\\StreamFactionWebSite\\StreamFaction\\StreamFaction.csproj": {
+    "D:\\Developpement\\Projet_MESI\\StreamFactionWebSite\\StreamFaction\\StreamFaction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projet MESI\\StreamFactionWebSite\\StreamFaction\\StreamFaction.csproj",
+        "projectUniqueName": "D:\\Developpement\\Projet_MESI\\StreamFactionWebSite\\StreamFaction\\StreamFaction.csproj",
         "projectName": "StreamFaction",
-        "projectPath": "F:\\Projet MESI\\StreamFactionWebSite\\StreamFaction\\StreamFaction.csproj",
+        "projectPath": "D:\\Developpement\\Projet_MESI\\StreamFactionWebSite\\StreamFaction\\StreamFaction.csproj",
         "packagesPath": "C:\\Users\\vandr\\.nuget\\packages\\",
-        "outputPath": "F:\\Projet MESI\\StreamFactionWebSite\\StreamFaction\\obj\\",
+        "outputPath": "D:\\Developpement\\Projet_MESI\\StreamFactionWebSite\\StreamFaction\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\vandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +41,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.SpaServices.Extensions": {
+            "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
-              "version": "[3.1.26, )"
+              "version": "[6.0.6, )"
             }
           },
           "imports": [
@@ -55,12 +59,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.25, 3.1.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

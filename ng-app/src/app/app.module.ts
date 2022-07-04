@@ -17,6 +17,7 @@ import { CalendrierViewComponent } from './views/calendrier-view/calendrier-view
 import { ActualiteService } from './services/actualite.service';
 import { CalendrierComponent } from './component/calendrier/calendrier.component';
 import { InfosAssoComponent } from './component/infos-asso/infos-asso.component';
+import { InfosViewComponent } from './views/infos-view/infos-view.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { InfosAssoComponent } from './component/infos-asso/infos-asso.component'
     NotFoundViewComponent,
     ActualitesViewComponent,
     CalendrierViewComponent,
-    InfosAssoComponent
+    InfosAssoComponent,
+    InfosViewComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,22 @@
+<div class="container bg-dark pb-2 card">
+  <h1 class="display-4 text-white text-center">Liste des streamers</h1>
+  <div class="card-deck">
+    <div class="card mb-3" *ngFor="let streamer of streamers">
+      <div class="row no-gutters">
+        <a href="#" class="col-md-2">
+          <img class="card-img logo_Streamer" src="../assets/Ressources_Images/{{streamer.logo}}">
+        </a>
+        <div class="col-md-8">
+          <div class="card-body">
+            <a href="#" class="label label-black"></a>
+            <h5 class="card-title">{{streamer.name}}</h5>
+            <p class="card-text">{{streamer.description}}</p>
+            <p class="card-text">
+              <small class="text-muted">{{streamer.date_modif}}</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32228.343
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamFaction", "StreamFaction.csproj", "{EF5619D7-F883-4DF9-BFAB-6EC6945687C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamFaction", "StreamFaction.csproj", "{8DBA2F80-8574-49A6-B886-0F9CA3FD248C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EF5619D7-F883-4DF9-BFAB-6EC6945687C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF5619D7-F883-4DF9-BFAB-6EC6945687C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF5619D7-F883-4DF9-BFAB-6EC6945687C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF5619D7-F883-4DF9-BFAB-6EC6945687C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBA2F80-8574-49A6-B886-0F9CA3FD248C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBA2F80-8574-49A6-B886-0F9CA3FD248C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBA2F80-8574-49A6-B886-0F9CA3FD248C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBA2F80-8574-49A6-B886-0F9CA3FD248C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9B113D51-2FFC-4B63-BA0D-490841C30662}
+		SolutionGuid = {FD169C1E-14F2-4DE8-A7AB-2E7FF883C8B5}
 	EndGlobalSection
 EndGlobal
