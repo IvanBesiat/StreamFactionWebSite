@@ -5,7 +5,6 @@ import { StreamersViewComponent } from './views/streamers-view/streamers-view.co
 import { NotFoundViewComponent } from './views/not-found-view/not-found-view.component';
 import { ActualitesViewComponent } from './views/actualites-view/actualites-view.component';
 import { CalendrierViewComponent } from './views/calendrier-view/calendrier-view.component';
-import { InfosAssoComponent } from './component/infos-asso/infos-asso.component';
 import { InfosViewComponent } from './views/infos-view/infos-view.component';
 
 const routes: Routes = [
