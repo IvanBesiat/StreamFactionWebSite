@@ -1,0 +1,18 @@
+# Sample contents of Dockerfile
+# Stage 1
+FROM microsoft/aspnetcore-build AS builder
+WORKDIR /StreamFaction
+
+# caches restore result by copying file separately
+#COPY ./DockerTest/*.csproj
+
+# copies tthe of the code 
+COPY ./StreamFact-ion .
+RUN dotnet restoreRUN npm install
+RUn dotnet publish --output /app/ --configuration Release
+
+# stage 2
+#FROM microsoft aspnetcore-build
+WORKDIR /app/
+#COPy --from-builder /app .
+ENTRYPOINT ["dotnet", "StreamFaction.dll"]
